@@ -1,0 +1,70 @@
+### ITI1120
+### Kian Zahrai
+### Assignment 3 Part 1
+
+>>> Testing 1 Part 1
+>>> is_up_monotone("12311234","2")
+12, 31, 12, 34
+False
+>>>
+>>>>>> is_up_monotone ("734","3")
+734
+True. The sequence is up-monotone
+>>> is_up_monotone ("734","1")
+7,3,4
+False. The sequence is not up-monotone
+
+### Testing User interface
+*************************************
+**
+*__Welcome to up-monotone inquiry__*
+**
+*************************************
+What is your name? Kian Zahrai
+*************************************
+**
+*__ Kian Zahrai ,Welcome to up-monotone inquiry__*
+**
+*************************************
+Kian Zahrai, would you like to test if a number admits an up-monotone split of given size? yes
+Good choice!
+Enter a positive integer: 89
+Input the split. The split has to divide the length of 89 i.e.,2
+2
+89
+The sequence is up-monotone
+Kian Zahrai, would you like to test if a number admits an up-monotone split of given size? yesssss
+Please enter yes or no. Try again.
+Kian Zahrai, would you like to test if a number admits an up-monotone split of given size? yess
+Please enter yes or no. Try again.
+Kian Zahrai, would you like to test if a number admits an up-monotone split of given size? yes
+Good choice!
+Enter a positive integer: 879
+Input the split. The split has to divide the length of 879 i.e.,3
+1
+8,7,9
+The sequence is not up-monotone
+Kian Zahrai, would you like to test if a number admits an up-monotone split of given size? yes
+Good choice!
+Enter a positive integer: 465646
+Input the split. The split has to divide the length of 465646 i.e.,6
+6
+465646
+The sequence is up-monotone
+Kian Zahrai, would you like to test if a number admits an up-monotone split of given size? yes
+Good choice!
+Enter a positive integer: 'ghgh'
+The input can only contain digits. Try again.
+Kian Zahrai, would you like to test if a number admits an up-monotone split of given size? yes
+Good choice!
+Enter a positive integer: 56
+Input the split. The split has to divide the length of 56 i.e.,2
+2
+56
+The sequence is up-monotone
+Kian Zahrai, would you like to test if a number admits an up-monotone split of given size? no
+*************************************
+**
+*__Good bye  Kian Zahrai __*
+**
+*************************************

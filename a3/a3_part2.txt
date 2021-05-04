@@ -1,0 +1,103 @@
+### ITI1120
+### Kian Zahrai
+### Assingnment 2 Part 2
+
+>>>
+>>> Testing #2.1
+>>>
+>>> sum_odd_divisors(201)
+272
+>>> sum_odd_divisors(201)
+272
+>>> sum_odd_divisors(0)
+>>>
+
+>>> Testing #2.2
+>>> series_sum()
+Please enter a non-negative integer: 98
+1001.6347818697799
+>>> series_sum()
+Please enter a non-negative integer: 0
+1000
+>>> series_sum()
+Please enter a non-negative integer: -8
+>>> 
+
+>>> Testing #2.3
+>>> pell(123)
+42644625325266431622582204734101084193553730205
+>>> pell(2)
+2
+>>> pell(3)
+5
+>>> pell(19)
+6625109
+>>> 
+
+>>> Testing #2.4
+>>> countMembers('!')
+1
+>>> countMembers('one, two')
+2
+>>> countMembers('one, Two')
+3
+>>> 
+
+>>> Testing #2.5
+>>> casual_number('erjbf')
+'erjbf'
+>>> casual_number('98327,41343')
+'9832741343'
+>>> casual_number("rfi7378,2489")
+'rfi73782489'
+>>> 
+
+>>> Testing #2.6
+>>> alienNumbers('aaaUUU!!!')
+492
+>>> alienNumbers('TTTT')
+4096
+>>> alienNumbers('yT!aUU')
+1787
+>>> 
+
+>>> Testing #2.7
+>>> alienNumbersAgain("a!ya!U!NaU")
+1095
+>>> alienNumbersAgain("a!ya!UUU")
+927
+>>> alienNumbersAgain("a!NN!NaU")
+345
+>>> 
+
+>>> Testing #2.8
+>>> encrypt("Hello, world")
+'dHlerlolwo ,'
+>>> encrypt('mom')
+'mm'
+>>> encrypt('dad')
+'dd'
+>>> encrypt('1234')
+'4132'
+>>> 
+
+>>> Testing #2.9
+>>> weaveop('aa')
+'aopa'
+>>> weaveop('ooooo')
+'oopoopoopoopo'
+>>> weaveop('aBCDEDf22X')
+'aoPBOPCOPDOPEOPDOpf22X'
+>>> 
+
+>>> Testing #2.10
+>>> squarefree('a')
+True
+>>> squarefree("abcabc")
+False
+>>> squarefree('555')
+False
+>>> squarefree("zrtzghtghtghtq")
+False
+>>> 
+
