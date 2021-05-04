@@ -1,0 +1,15 @@
+### ITI1120
+### Kian Zahrai
+### Assignment 4 Question 3
+
+>>> Testing 2 Part 2 2.3 Question3:
+>>> main()
+Please input a string of numbers separated by a space: 1 1 2 3.0 3 3 3 3 6 5 
+5
+>>>
+>>> main()
+Please input a string of numbers separated by a space:  6 6 7 1 1 1 1 4.5 1
+4
+>>>
+>>> longest_run([6, 6, 7, 1.0, 1.0, 2, 7.911, 7])
+2

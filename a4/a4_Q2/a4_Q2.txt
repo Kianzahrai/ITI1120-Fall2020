@@ -1,0 +1,18 @@
+### ITI1120
+### Kian Zahrai
+### Assignment 4 Question 2
+
+>>> Testing 2 Part 2 2.2 Question2:
+>>>
+>>> main()
+Please input a list of numbers separated by a space: 1 2 3 3 3 4.5 6 5 
+True
+>>> main()
+Please input a list of numbers separated by a space: 1 2 3      3   3 4.5 6 5 
+True
+>>> main()
+Please input a list of numbers separated by a space: 1.0 2 3.7 4 3 2 
+False
+>>> two_length_run([1.0, 2, 3.7, 4, 3, 2])
+False
+>>> 

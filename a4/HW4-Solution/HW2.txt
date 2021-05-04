@@ -1,0 +1,117 @@
+def number_divisible(x, n): #a version with for loop over elements of the list
+     '''(list of ints, int)->int
+      Returns the number of elements of the list x that are divisible by n
+      '''
+     counter = 0
+     for num in x:
+        if num % n == 0 :
+          counter = counter + 1
+     return counter
+
+def number_divisible_v2(x, n): #a version with for loop over indices of the list
+     '''(list of ints, int)->int
+      Returns the number of elements of the list x that are divisible by n
+      '''
+     counter = 0
+     for i in range(len(x)):
+        if x[i] % n == 0 :
+          counter = counter + 1
+     return counter
+
+
+def number_divisible_v3(x, n): #a version with while loop over indices
+     '''(list of ints, int)->int
+      Returns the number of elements of the list x that are divisible by n
+      '''
+     counter = 0
+     i = 0
+     while i < len(x):
+        if x[i] % n == 0 :
+          counter = counter + 1
+        i = i + 1   
+     return counter
+
+
+
+
+raw_input = input("Please input a list of numbers separated by spaces: ").strip().split()
+n = int(input("Please input an integer: "))
+a=[]
+for item in raw_input:
+     a.append(int(item))
+
+print("The number of elements divisible by", n, "is", numberDivisible(a, n))
+
+
+
+def two_length_run(x): # a version with for loop over indices
+     '''(list)-> bool
+      Returns True if there is a run of lenght at least 2
+      in the list of numbers x and False otherwise.
+      Precondition: x is a list of numbers
+     '''
+     for i in range(len(x)-1):
+          if x[i]== x[i+1]:
+               return True
+     return False
+          
+
+
+def two_length_run_v2(x): # a version with for loop over indices
+     '''(list)-> bool
+      Returns True if there is a run of lenght at least 2
+      in the list of numbers x and False otherwise.
+      Precondition: x is a list of numbers
+     '''
+     result = False
+     i = 0
+     while i < len(x) - 1 and not result:
+       if x[i]== x[i+1]:
+            result = True
+       i = i + 1
+     return result
+
+raw_input = input("Please input a list of numbers separated by space: ").strip().split()
+a=[]
+for s in raw_input:
+     a.append(float(s))
+print(two_length_run(a))
+
+
+def longest_run(x):
+     '''(list)-> int
+      Returns the length of the longest run in the list of numbers x.
+      Precondition: x is a list of numbers
+     '''
+     if len(x)==0: return 0
+     
+     i = 0
+     max_length = 1
+     while i < len(x)-1 :
+        length = 1
+        while  i < len(x)-1 and x[i] == x[i+1]:
+           length = length + 1
+           i = i + 1
+        if length > max_length:
+           max_length = length  
+        i = i + 1   
+     return max_length
+
+raw_input = input("Please input a list of numbers separated by space: ").strip().split()
+a=[]
+for s in raw_input:
+     a.append(float(s))
+print(longest_run(a))
+
+
+
+
+
+
+
+
+
+
+
+
+
